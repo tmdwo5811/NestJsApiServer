@@ -14,4 +14,9 @@ export class AppController {
   sayHello(): string {
     return 'sayHello';
   }
+
+  @Post('/helloV2')
+  sayHelloV2(): string {
+    return 'sayHello';
+  }
 }
